@@ -11,6 +11,14 @@
   ],
   "author": "Sho Hashimoto <hashimoto@shokai.org>",
   "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "*",
+    "grunt": "*",
+    "grunt-notify": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-coffeelint": "git+https://github.com/geta6/grunt-coffeelint",
+    "grunt-contrib-watch": "git+https://github.com/gruntjs/grunt-contrib-watch"
+  },
   "dependencies": {
     "linda-socket.io": "0.0.3",
     "socket.io": "~0.9.16",
