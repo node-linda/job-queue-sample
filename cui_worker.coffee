@@ -1,6 +1,6 @@
-## LindaClient = require('linda-socket.io').Client
-LindaClient = require('../../').Client
-socket = require('socket.io-client').connect('http://localhost:3000')
+LindaClient = require('linda-socket.io').Client
+
+socket = require('socket.io-client').connect('http://linda-job-queue-sample.herokuapp.com/')
 
 linda = new LindaClient().connect(socket)
 ts = linda.tuplespace('calc')
