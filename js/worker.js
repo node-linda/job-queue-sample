@@ -5,7 +5,7 @@
     return $('#log').prepend($('<p>').text(msg));
   };
 
-  socket = io.connect("" + location.protocol + "//" + location.hostname);
+  socket = io.connect("" + location.protocol + "//" + location.host);
 
   linda = new Linda().connect(socket);
 
