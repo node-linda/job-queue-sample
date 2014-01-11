@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shokai/linda-job-queue-sample.git"
+    "url": "git://github.com/node-linda/linda-job-queue-sample.git"
   },
   "bugs": {
-    "url": "https://github.com/shokai/linda-job-queue-sample/issues"
+    "url": "https://github.com/node-linda/linda-job-queue-sample/issues"
   },
-  "homepage": "https://github.com/shokai/linda-job-queue-sample"
+  "homepage": "https://github.com/node-linda/linda-job-queue-sample"
 }

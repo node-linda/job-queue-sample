@@ -1,8 +1,8 @@
 Linda Sample - Job-Queue
 ========================
-Job-Queue sample of [Linda Socket.IO](https://github.com/shokai/linda-socket.io)
+Job-Queue sample of [Linda Socket.IO](https://github.com/node-linda/linda-socket.io)
 
-- https://github.com/shokai/linda-job-queue-sample
+- https://github.com/node-linda/linda-job-queue-sample
 - [demo](http://linda-job-queue-sample.herokuapp.com)
 
 ## Install Dependencies
