@@ -40,3 +40,8 @@ Job-Queue sample of [Linda Socket.IO](https://github.com/node-linda/linda-socket
     % heroku labs:enable websockets
     % git push heroku master
     % heroku open
+
+show logs on heroku
+
+    % heroku config:set 'DEBUG=*'
+    % heroku logs --tail
