@@ -20,6 +20,6 @@ io.configure 'development', ->
 
 linda = require('linda-socket.io').Linda.listen(io: io, server: app)
 
-port = process.argv[2]-0 || 3000
-app.listen port
-console.log "server start - port:#{port}"
+process.env.PORT ||= 3000
+app.listen process.env.PORT
+console.log "server start - port:#{process.env.PORT}"
