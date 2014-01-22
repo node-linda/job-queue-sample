@@ -4,7 +4,7 @@
   "description": "linda-socket.io sample app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/coffee-script/bin/coffee server.coffee"
   },
   "keywords": [
     "linda"
@@ -12,7 +12,6 @@
   "author": "Sho Hashimoto <hashimoto@shokai.org>",
   "license": "MIT",
   "devDependencies": {
-    "coffee-script": "*",
     "grunt": "*",
     "grunt-notify": "*",
     "grunt-contrib-coffee": "*",
