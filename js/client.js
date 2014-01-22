@@ -16,7 +16,7 @@
     return ts.watch({
       type: 'result'
     }, function(err, tuple) {
-      return print("> " + tuple.data.result);
+      return print("> " + tuple.data.result + " (from:" + tuple.from + ")");
     });
   });
 

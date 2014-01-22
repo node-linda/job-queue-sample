@@ -8,7 +8,7 @@ ts = linda.tuplespace("calc")
 socket.on 'connect', ->
   print "connect!!"
   ts.watch {type: 'result'}, (err, tuple) ->
-    print "> #{tuple.data.result}"
+    print "> #{tuple.data.result} (from:#{tuple.from})"
 
 jQuery ->
   $('#btn_request').click (e)->
