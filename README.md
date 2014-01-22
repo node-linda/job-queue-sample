@@ -25,6 +25,10 @@ Job-Queue sample of [Linda Socket.IO](https://github.com/node-linda/linda-socket
 => watch coffee-script and build javascript
 
 
+    % DEBUG=linda* coffee server.coffee 3000
+
+=> start http://localhost:3000 with linda logs
+
 ## CUI job worker
 
     % coffee cui_worker.coffee
