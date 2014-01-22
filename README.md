@@ -12,7 +12,7 @@ Job-Queue sample of [Linda Socket.IO](https://github.com/node-linda/linda-socket
 
 ## Run
 
-    % coffee server.coffee
+    % npm start
 
 => http://localhost:3000
 
@@ -25,9 +25,10 @@ Job-Queue sample of [Linda Socket.IO](https://github.com/node-linda/linda-socket
 => watch coffee-script and build javascript
 
 
-    % DEBUG=linda* coffee server.coffee
+    % DEBUG=linda* PORT=5000 npm start
 
-=> start http://localhost:3000 with linda logs
+=> start http://localhost:5000 with linda logs
+
 
 ## CUI job worker
 
