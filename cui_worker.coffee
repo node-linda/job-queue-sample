@@ -1,4 +1,4 @@
-LindaClient = require('linda-socket.io').Client
+LindaClient = require('linda').Client
 
 socket = require('socket.io-client').connect('http://linda-job-queue-sample.herokuapp.com/')
 

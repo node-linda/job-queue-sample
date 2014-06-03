@@ -19,10 +19,10 @@
     "grunt-contrib-watch": "git+https://github.com/gruntjs/grunt-contrib-watch"
   },
   "dependencies": {
-    "linda-socket.io": "0.2.0",
-    "socket.io": "~0.9",
+    "linda": "~> 1.0",
+    "socket.io": "~> 1.0",
     "coffee-script": "~1.6",
-    "socket.io-client": "~0.9"
+    "socket.io-client": "~> 1.0"
   },
   "repository": {
     "type": "git",
